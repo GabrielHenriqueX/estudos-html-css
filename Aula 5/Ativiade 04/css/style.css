@@ -1,0 +1,105 @@
+header {
+    position: fixed;
+    top: 0;
+    background-color: #242627;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+}
+
+#menu {
+    display: none;
+}
+
+label[for ="menu"] {
+    cursor: pointer;
+    display: none;
+    font-size: 25px;
+}
+
+#navMenu {
+    width: 100%;
+
+
+}
+
+#navMenu a{
+    display: inline-block;
+    background-color: #1E90FF;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#navMenu a:hover {
+    background-color: #0e4a6d;
+    transition: 0.5s;
+}
+@media (max-width: 620px) {
+
+    #navMenu {
+        margin-top: -500px;
+    }
+
+
+    label[for='menu'] {
+        display: block;
+        text-align: left;
+        width: 15px;
+        margin-left: 10px;
+    }
+
+    #menu:checked ~ #navMenu {
+        margin-top: 0px;
+    }
+
+   
+  
+       
+        
+        
+       
+      
+        
+        
+    }
+
+
+
+
+body{
+    background-color: rgb(0, 162, 255);
+}
+main{
+    width: 70%;
+    margin: 50px auto;
+    border: 1% solid blue;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.438)
+
+}
+img {
+    width: 95%;
+    height: 95%;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    border-radius: 18px;
+    
+    
+}
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(15, 146, 221); /* cor de fundo */
+    color: white; /* cor do texto */
+    text-decoration: none; /* remover sublinhado */
+    border-radius: 5px; /* borda arredondada */
+    transition: background-color 0.3s; /* transição suave de cor de fundo */
+    margin: 39px
+    
+}
+

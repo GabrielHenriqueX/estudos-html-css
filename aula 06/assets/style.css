@@ -1,0 +1,15 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --cortexto:white;
+    --fundoSite:url ('assets/img/')
+    --corBorda:rgba(255, 255, 255, 0.5);
+    --corBotao:rgba(255, 255, 0.05 ) 
+    
+
+}
