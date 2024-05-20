@@ -83,6 +83,11 @@ p {
     cursor: pointer;
     animation: slide-back 0.4s;
 }
+
+.light #btn {
+    animation: slide-in 0,4s forwards;
+}
+
 #btn:hover{
     outline: 8px solid var(--corBrilho);
 }
@@ -106,7 +111,7 @@ p {
 
 #navLinks a:hover{
     background: var(--corBotaoHover);
-    border: 1,5px solid var(--cortexto);
+    border: 1.5px solid var(--cortexto);
 }
 #navSocial{
     margin-top: 16px;

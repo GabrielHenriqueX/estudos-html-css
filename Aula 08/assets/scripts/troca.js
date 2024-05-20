@@ -1,4 +1,4 @@
 function toggleMode (){
     const html = document.documentElement
-    html.classList.toggle ('ligth')
+    html.classList.toggle ('light')
 }
